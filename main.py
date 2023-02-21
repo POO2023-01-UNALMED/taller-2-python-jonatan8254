@@ -5,7 +5,7 @@ class Asiento:
         self.registro = registro
 
     def cambiarColor(self, color):
-        colores=["rojo", "verde", "amarilo", "negro", "blanco"]
+        colores=["rojo", "verde", "amarillo", "negro", "blanco"]
         if color in colores:
             self.color = color
         
@@ -32,7 +32,7 @@ class Auto:
         self.precio = precio
         self.asientos = asientos
         self.marca = marca
-        self.motor = Motor
+        self.motor = motor
         self.registro = registro
         Auto.cantidadCreados += 1
 
